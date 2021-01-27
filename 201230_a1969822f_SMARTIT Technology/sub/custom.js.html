@@ -1,0 +1,19 @@
+<script>
+       $(function(){
+        //bbs shift
+        if($('.bbs-area').length){
+            $('.board_wrapper, .search_wrap,.calendar_wrapper, .pagination_wrap').appendTo('.bbs-area').css('visibility','visible');
+        }
+    });
+</script>
+<script>
+   $('.dwn-btn').click(function(){
+
+    if (confirm("다운로드 하시겠습니까?")) {
+                // 확인 버튼 클릭 시 동작
+            } else {
+                // 취소 버튼 클릭 시 동작
+                return false;
+            }
+   });
+</script>
